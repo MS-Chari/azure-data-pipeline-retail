@@ -1,0 +1,15 @@
+{
+  "name": "CopyRetailSalesPipeline",
+  "properties": {
+    "activities": [
+      {
+        "name": "CopyFromBlobToSQL",
+        "type": "Copy",
+        "typeProperties": {
+          "source": { "type": "DelimitedTextSource" },
+          "sink": { "type": "SqlSink" }
+        }
+      }
+    ]
+  }
+}

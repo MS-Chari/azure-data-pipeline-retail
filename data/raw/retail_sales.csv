@@ -1,0 +1,4 @@
+InvoiceID,Date,Store,Product,Quantity,UnitPrice,TotalAmount,Region
+INV001,2024-01-10,StoreA,Product1,2,100,200,East
+INV002,2024-01-11,StoreB,Product2,1,300,300,West
+INV003,2024-01-12,StoreA,Product3,5,50,250,East
